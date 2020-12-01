@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <nav className="nav justify-content-center py-3 bg-warning text-muted">
-        <h2>Welcome to Pokemon API</h2>
+        <h2>Welcome to Axios Pokemon API</h2>
       </nav>
       <div className="container">
         <div className="row">
@@ -25,7 +25,7 @@ function App() {
             <div className="card mt-4">
               <h5 className="card-header text-muted">View the list</h5>
               <div className="card-body">
-                <p className="card-text text-muted">Click the button below to show all the Pokemons</p>
+                <p className="card-text text-muted">Click the button below to show all the Pokemons.</p>
                 <button className="btn btn-outline-secondary" onClick={myHadler}>Fetch the Pokemon</button></div>
             </div>
           </div>
